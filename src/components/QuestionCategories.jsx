@@ -96,7 +96,7 @@ const QuestionCategories = () => {
                 {currentQuizStep === "start" ?
                 <>
                 <Typography variant="h1" className={classes.mainTitle}>
-                    Get Questions:
+                    Take your Questions
                 </Typography>
                 <form onSubmit={handleSubmit}>
                     <Grid container spacing={4}>
@@ -157,7 +157,7 @@ const QuestionCategories = () => {
                                 id="quiz-number"
                                 variant="outlined"
                                 name="quiz-number"
-                                label={`Add a quiz number from 1 to 10`}
+                                label={`Enter question number`}
                                 value={quizNumber || ""}
                                 onChange={handleChange}
                             />

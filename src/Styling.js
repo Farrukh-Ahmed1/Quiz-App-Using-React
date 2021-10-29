@@ -13,10 +13,9 @@ export const styles = {
     },
     submitButton: {
       marginTop: "20px",
-      borderRadius: "999px",
-      background: "#9c27b0",
+      background: "#002D62",
       "&:hover": {
-        backgroundColor: "#9c27b0",
+        backgroundColor: "#00308F",
         boxShadow:
           "0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2)",
       },
